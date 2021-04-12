@@ -1,0 +1,47 @@
+.title {
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.container {
+    font-family: 'Roboto';
+    font-size: 28px;
+    display: inline-block;
+    text-align: right;
+    width: 370px;
+    margin: 0 auto;
+    padding: 15px 10px;
+    border: 1px solid rgba(225, 225, 225, 10);
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 0px rgba(225, 225, 225, 10);
+}
+.formItem {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.formItem > input {
+    font-size: 20px;
+}
+
+.phonebookBtn {
+    width: 150px;
+    border-style: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background: rgb(64, 199, 129);
+    box-shadow: 0 -3px rgb(53, 167, 110) inset;
+    transition: 0.2s;
+}
+.phonebookBtn:hover {
+    background: rgb(53, 167, 110);
+}
+.phonebookBtn:active {
+    background: rgb(33, 147, 90);
+    box-shadow: 0 3px rgb(33, 147, 90) inset;
+}
